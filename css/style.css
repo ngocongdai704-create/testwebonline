@@ -84,7 +84,7 @@ a { color: #ff9c00; text-decoration: none; }
 
 
 
-.page .event-text-1 { font-size: 46px; color: #ff008c; padding-top: 15px; font-style: italic; text-align: center ; font-weight: 700; letter-spacing: -2px; line-height: 80px; }
+.page .event-text-1 { font-size: 46px;-webkit-text-stroke: 2px rgb(255, 0, 0); color: #f7c900; padding-top: 15px; text-align: center ; font-weight: 700; letter-spacing: -2px; line-height: 80px; }
 .page .event-text-2 { font-size: 72px; color: #fff; text-align: center; font-style: italic; font-weight: 700; letter-spacing: -2px; line-height: 70px; }
 .page .buttons { display: flex; flex-wrap: wrap; justify-content: space-evenly; margin-top: 60px; margin-bottom: 40px; }
 .page .buttons .btn-tab {width: 220px;height: 55px;/* background: url(../images/button-tab-2.png) no-repeat; */text-align: center; align-self: center; font-size: 18px; font-weight: 500; color: #fff; padding-top: 15px; margin-bottom: 20px; border-radius: 50px;border: 1px solid #4e4e4e; background: #11111178;}
@@ -99,7 +99,10 @@ a { color: #ff9c00; text-decoration: none; }
 
 .page .event-tab .list-notice { padding-left: 20px; margin-bottom: 70px; }
 .page .event-tab .list-notice li { font-weight: 500; color: #fff; position: relative; padding-left: 15px; margin-bottom: 5px; }
-.page .event-tab .list-notice li:before { content: ' '; width: 5px; height: 5px; background: #776c5f; border-radius: 100%; position: absolute; top: 10px; left: 0; }
+.page .event-tab .list-notice li:before { content: '⭐'; width: 5px; height: 5px; border-radius: 100%; position: absolute; top: 0px; left: -10px; }
+.page .event-tab .list-notice1 { padding-left: 20px; margin-bottom: 100px; }
+.page .event-tab .list-notice1 li { font-weight: 500; color: #fff; position: relative; padding-left: 15px; margin-bottom: 5px; }
+.page .event-tab .list-notice1 li:before { content: '⭐'; width: 5px; height: 5px; border-radius: 100%; position: absolute; top: 0px; left: -10px; }
 
 .page .event-tab .list-info-2 { padding-left: 50px; margin-bottom: 50px; }
 .page .event-tab .list-info-2 li { font-size: 18px; font-weight: 500; color: #fff; position: relative; padding-left: 15px; margin-bottom: 5px; }
@@ -155,7 +158,8 @@ a { color: #ff9c00; text-decoration: none; }
 .page .table table tbody tr td { font-size: 16px; }
 .page .head-table { margin-bottom: 20px; margin-top: 50px; }
 
-.footer {padding: 10px 0; display: flex; justify-content: center;}
+.footer {padding: 10px 0; display: flex;border-top:2px #b55900; justify-content: center;background: url(../images/footer.png);
+  border-top: 2px solid #333;}
 .footer a { margin: 0 10px; }
 .footer .copyright {margin: 10px 0;  color: #5a5a5a; }
 
