@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated {
+  opacity: 0;
+}
+.animated.active{
+   opacity: 1; 
+}
+
+.fadeInTopLeft {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0, 0.55, 0.45, 1);
+  transform: translate(-30%, -30%) scale(1.1);
+}
+.fadeInTopLeft.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
+.fadeInTopRight {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0, 0.55, 0.45, 1);
+  transform: translate(30%, -30%) scale(1.1);
+}
+.fadeInTopRight.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
+.fadeInBottomLeft {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0, 0.55, 0.45, 1);
+  transform: translate(-30%, 30%) scale(1.1);
+}
+.fadeInBottomLeft.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
+.fadeInBottomRight {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0, 0.55, 0.45, 1);
+  transform: translate(30%, 30%) scale(1.1);
+}
+.fadeInBottomRight.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
+.zoom{
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: scale(0.2);
+}
+.zoom.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
+.animate-down{
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0, 0.55, 0.45, 1);
+    transform: translate(-20%, 20%) scale(0.5);
+}
+.animate-down.active{
+  opacity: 1;
+    transform: scale(1) translate(0, 0) rotate(0);
+}
+
